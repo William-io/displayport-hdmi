@@ -13,7 +13,7 @@ sudo nano /etc/default/grub
 
 Altere a linha para:
 ```bash
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash amdgpu.dc=1 amdgpu.gpu_recovery=1 video=DP-1:1920x1080@75"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash amdgpu.dc=1 amdgpu.gpu_recovery=1 video=DP-1:1920x1080M@75"
 ```
 
 
